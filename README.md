@@ -20,7 +20,7 @@ This script listens for OSC messages from ETC EOS and then triggers the Millumin
 
 ### Blackmagic ATEM Primary/Backup Switch
 
-// CURRENTLY NOT IMPLEMENTED
+[ATEM_PRIMARY_BACKUP](./ATEM_PRIMARY_BACKUP.js)
 
 
 This script is intended to be run on both the primary and backup Millumin machines. It listens for a custom OSC message (e.g. from the lighting console like `/atem/switch/primary` or `/atem/switch/backup`) and then triggers the appropriate ATEM switcher command to switch the primary and backup video feeds.
